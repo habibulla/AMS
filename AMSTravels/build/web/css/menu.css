@@ -1,0 +1,93 @@
+@charset "utf-8";
+/* CSS Document */
+
+.main-navigation{
+	width:880px;
+	height:72px;
+	float:left;
+	font-family: 'UniversCondensedBold';
+	
+	}
+	
+ul{
+	margin:0px;
+	padding:0px;
+	list-style:none;
+	
+	
+	}
+	
+li{
+	float:left;
+	font-size:20px;
+	color:#767676;
+	height:72px;
+	display:block;
+	position:relative;
+	line-height:.7em;
+	
+	
+	}
+	
+	
+li .hover{
+	text-decoration:none;
+	position:absolute;
+	border:solid 1px #ede4d9;
+	z-index:0;
+	height:70px;
+	display:none;
+	}
+.active a{
+	color:#EF0505;
+	text-decoration:none;
+	float:left;
+	}
+
+li a{
+	display:block;
+	color:#767676;
+	text-decoration:none;
+	padding:23px 20px 13px 20px;
+	z-index:1000;	
+	position:relative;
+	height:36px; 
+	}
+
+	
+
+	
+ul li ul{
+	width:200px;
+	position:absolute;
+	display:none;
+	top:44px;
+	padding:1px 0 0 0;
+	}
+	
+ul li:hover ul{
+	
+	display:block;
+	
+
+	}
+	
+ul li ul li{
+	display:block;
+	padding:10px 10px 10px 0;
+	width:200px;
+	padding:0px;
+	margin:0px;
+	background:url(../images/nav-bg.jpg) left repeat-x;
+	position:relative;
+	}
+	
+ul li ul li a{
+	display:block;
+	color:#FFFFFF;
+	text-decoration:none;
+	padding:14px 43px 13px 28px;
+	z-index:1000;	
+	position:relative;
+	}
+

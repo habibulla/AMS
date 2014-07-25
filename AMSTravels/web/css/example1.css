@@ -1,0 +1,210 @@
+
+
+#banner2{   
+    position: absolute;
+    background-image:url(../images/subtle_zebra_3d.png);
+    background-repeat:repeat;   
+}     
+
+.oneByOne1{	
+    margin: 0;
+    width: 100%;
+    height: 260px;   
+    background: #EFEFEF url(../images/bg.jpg) repeat;    
+    position: relative;
+    overflow: hidden;
+
+}   
+
+#banner2 .oneByOne_item{
+    position: absolute;
+    width: 961px;
+    height: 260px;  
+    overflow: hidden;  
+}         
+
+#banner2 .oneByOne_item span{
+    font-family: "Lucida Grande", "Lucida Sans Unicode", helvetica, verdana, arial, sans-serif;
+}                                                                                              
+
+#banner2 .oneByOne_item a{
+    text-decoration: none;
+    color: #B22222;
+}
+
+
+
+/* slide 1 */
+#banner2 img.img1{
+    position: absolute;
+    top: 30px;
+    left: 350px;
+}
+
+#banner2 img.img2{
+    position: absolute;
+    top: 34px;
+    left: 540px;
+}            
+
+#banner2 .oneByOne_item .text1{
+    position: relative;
+    float: left;
+    margin: 140px 12px 0 48px;
+    color: #333333;	
+    font-size: 48px;
+}
+
+#banner2 .oneByOne_item .text2{              
+    clear: left;
+    position: relative;
+    float: left;
+    margin: 4px 12px 0 48px;
+    color: #666666;
+    font-size: 24px;
+}             
+
+/* slide 2 */
+#banner2 img.img3{
+    position: absolute;
+    top: 35px;
+    left: 560px;
+}
+#banner2 img.img4{
+    position: absolute;
+    top: 90px;
+    left: 430px;
+}
+#banner2 img.img5{
+    position: absolute;
+    top: 230px;
+    left: 420px;
+}
+#banner2 .oneByOne_item .text3{
+    clear: left;
+    position: relative;
+    float: left;
+    margin: 120px 12px 0 580px;    
+    color: #333333;
+    font-size: 48px;
+}          
+#banner2 .oneByOne_item .text4{
+    clear: left;
+    position: relative;
+    float: left;
+    margin: 12px 12px 0 580px; 	
+    color: #666666;
+    font-size: 22px;
+}                     
+
+/* slide 3 */
+#banner2 .slide3 img.wp1{
+    position: absolute;
+    top: 255px;
+    left: 512px;
+}
+#banner2 .slide3 img.wp2{
+    position: absolute;
+    top: 190px;
+    left: 360px;
+}              
+#banner2 .slide3 img.wp3{
+    position: absolute;
+    top: 64px;
+    left: 80px;
+}   
+
+#banner2 .slide3 span.txt1{
+    clear: left;
+    position: relative;
+    float: left;
+    margin: 120px 12px 0 540px;    
+    background: #B22222;     
+    padding: 8px;
+    color: #FFFFFF;
+    font-size: 40px;
+} 
+#banner2 .slide3  span.txt1 a{
+    color: #FFFFFF;
+}         
+#banner2 .slide3 span.txt2{
+    clear: left;
+    position: relative;
+    float: left;
+    margin: 12px 12px 0 540px;
+    color: #FFFFFF;  
+    background: #A0522D;
+    padding: 8px;
+    font-size: 22px;
+}                   
+
+
+/* slide 4 */   
+#banner2 img.wp1{
+    position: absolute;
+    top: 35px;
+    left: 580px;
+}
+#banner2 img.wp2{
+    position: absolute;
+    top: 35px;
+    left: 590px;
+}              
+#banner2 img.wp3{
+    position: absolute;
+    top: 100px;
+    left: 600px;
+}   
+
+#banner2 .oneByOne_item span.wp1{
+    clear: left;
+    position: relative;
+    float: left;
+    margin: 99px 12px 0 60px;    
+    background: #9b8d82;     
+    padding: 8px;
+    color: #FFFFFF;
+    font-size: 30px;
+} 
+#banner2 .oneByOne_item span.wp1 a{
+    color: #FFFFFF;
+}         
+#banner2 .oneByOne_item span.wp2{
+    clear: left;
+    position: relative;
+    float: left;
+    margin: 12px 12px 0 60px; 
+
+    color: #FFFFFF;  
+    background: #EF0505;
+    padding: 8px;
+    font-size: 16px;
+}                  
+
+/* slide 5 */
+#banner2 .oneByOne_item img.bigImage{ 
+    position: absolute;
+    top: 0; 
+    left: 0;
+
+}
+#banner2 .oneByOne_item span.slide5Txt1{ 
+    position: relative;
+    float: left;
+    margin: 150px 12px 0 600px;
+    color: #9ACD32;	
+    font-size: 24px;  
+    background: #FFFFFF;
+    padding: 8px;             
+}
+
+#banner2 .oneByOne_item span.slide5Txt2{ 
+    position: relative;
+    clear: left;
+    float: left;
+    margin: 12px 12px 0 600px;
+    color: #666666;	
+    font-size: 12px;  
+    background: #FFFFFF;
+    padding: 8px;             
+}  
